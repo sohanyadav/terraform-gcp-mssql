@@ -18,13 +18,13 @@ variable "label_order" {
 
 variable "managedby" {
   type        = string
-  default     = "opsstation"
-  description = "ManagedBy, opsstation."
+  default     = "example"
+  description = "ManagedBy, sohanyadav."
 }
 
 variable "repository" {
   type        = string
-  default     = "https://github.com/opsstation/terraform-google-mssql"
+  default     = "https://github.com/sohanyadav/terraform-google-mssql"
   description = "Terraform current module repo"
 }
 
